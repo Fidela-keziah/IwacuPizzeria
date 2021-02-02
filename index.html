@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nziza Pizza house</title>
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <section id="home">
+            <header>
+                <div class="navbar navbar-light" style="background-color: transparent;">
+                    <nav>
+
+                        <ul>
+
+                            <li><a href="#home">home</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#whatwehave">What We Have</a></li>
+                            <div class="order">
+                                <li><a href="#order">order now</a></li>
+                            </div>
+                            <li><a href="#contact">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <h1>WELCOME TO<br> Iwacu Pizzeria</h1>
+        </section>
+        <section id="about">
+            <h2> ABOUT US</h2>
+            <div class="row">
+                <div class="col">
+                    <P> Hey There! Were are glad you are here.<br>Iwacu Pizzeria is a place where you can find the best delicious pizza with the size of your
+                        choice and affordable price.it is the one and only place you can see and feel at home because of
+                        our services and products.we know that pizza is adorable and loved meal so, you can either stop
+                        at our shop or <strong><em>contact us</em></strong> then we an deliver it for you.</P>
+                    <p>we know that you deserve hapiness that is why we bring Iwacu Pizza to make your days better than
+                        before.</p>
+                </div>
+                <div class="col">
+                    <p>suround yourself with pizza,not negativity</p>
+                    <img src="img/images.jpeg" alt="pizza">
+                </div>
+        </section>
+        <section id="whatwehave">
+            <h2>WHAT WE HAVE</h2>
+            <p style="color: yellow;">These are different kind of crust pizza we have:</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <p>Crispy pizza</p>
+                    <img src="img/Crispypizza.jpeg" alt="crispy">
+                </div>
+                <div class="col-md-3">
+                    <p>Gluten-free pizza</p>
+                    <img src="img/Gluten-freepizza.jpeg" alt="gluten-free">
+                </div>
+                <div class="col-md-3">
+                    <p>Stuffed pizza</p>
+                    <img src="img/stuffedpizza.jpeg" alt="stuffed">
+                </div>
+                <div class="col-md-3">
+                    <p>Focaccia pizza</p>
+                    <img src="img/focaccia.jpeg" alt="focaccia">
+                </div>
+            </div>
+        </section>
+        <section id="order">
+
+            <h2>Make your Order</h2>
+               <form id="myform">
+                   <div class="form-group">
+<label for="sel1">Select the size of your pizza</label>
+<select class="form-control" id="size">
+<option value="1">large@900</option>
+<option value="2">medium@600</option>
+<option value="3">small@400</option>
+</select>
+                   </div>
+                   <div class="form-group">
+<label for="sel1">Select the kind of crust you want</label>
+<select class="form-control" id="crust">
+    <option>Crispy</option>
+    <option>Stuffed</option>
+    <option>Gluten-free</option>
+    <option>Focaccia</option>
+</select>
+                   </div>
+                   <div class="form-group">
+                       <label for="sel1">Select the topping you want on your pizza</label>
+                       <select class="form-control" id="topping">
+                        <option>Onions</option>
+                        <option>Sausage</option>
+                        <option>Extra-cheese</option>
+                        <option>Mushrooms</option>
+                       </select>
+                   </div>
+                
+                   <div class="form-group" required>
+<label for="sel1">Number of pizza you want</label>
+<input type="number" id="quantity" class="form-control" min="1" required>
+                   </div>
+                   <div class="form-group" required>
+                       <label for="sel1">Delivery option</label>
+                       <select class="form-control" id="delivery">
+                        <option value="1"> you will come to pick it</option>
+                        <option value="2">it will be delivered to you</option>
+                       </select>
+
+                   </div>
+                   <div class="form-group">
+<button type="submit" class="btn btn-primary"> confirm your order</button>
+                   </div>
+               </form>     
+                   
+                
+
+        </section>
+        <section id="contact">
+            <h2>CONTACT US</h2>
+            <p style="color: yellow;">Incase you need to reach out to us:</p>
+            <p>TEL:0788307777 <br>Email:iwacupizzeria@gmail.com</p>
+            <h5 style="color: yellow;">Feel free to add a comment about our service or any suggestion:</h5>
+            <form action="" id="comment">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name...." name="anyname" id="name"
+                            size="30" value="" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email...." name="anyemail" id="anyemail"
+                            size="30" value="" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" id="textarea" placeholder="Your message here...."
+                        required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="btn btn-primary col-md-1">Submit</button>
+                </div>
+    </div>
+
+    </form>
+    <footer>
+        <p>Iwacu Pizzeria<br>2020</p>
+    </footer>
+
+    </section>
+
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
