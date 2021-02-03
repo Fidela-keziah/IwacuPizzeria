@@ -1,5 +1,5 @@
-var sizePrice =[900,600,400]
-var deliverPrices=[0,100];
+var sizePrice =[8000,6500,5000]
+var deliverPrices=[0,1000];
 $(document).ready(function(){
  $('form#myform').submit(function(event){
      event.preventDefault();
@@ -18,15 +18,15 @@ $(document).ready(function(){
      newTotal=new Total(price,pizzaQty,DeliveryCost);
 
      if (pizzaPick===1){
-         alert(" order is "+newOrder.fullOrder() + " click ok to see your bill ");
-         alert(" bill is "+newTotal.finalTotal() + "your pizza is ready,pick it");
+         alert(" ckeckout"+newOrder.fullOrder() + " click ok ");
+         alert(" your bill is "+newTotal.finalTotal() + " your pizza is already");
      }
      else{
          if(pizzaPick===2){
              prompt("enter location where you want your pizza to be delivered");
              alert("your order has been received and it will be delivered,click ok to see full information of your order");
-             alert(" order is " +newOrder.fullOrder() + "click ok to see your bill");
-             alert(" bill is " +newTotal.finalTotal() + "your pizza will be delivered in 30minutes");
+             alert(" ckeckout" +newOrder.fullOrder() + "click ok");
+             alert(" your bill is " +newTotal.finalTotal() + "your pizza will be delivered in 30-45 minutes");
          }
      }
  }) ;  
