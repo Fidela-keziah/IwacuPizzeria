@@ -26,6 +26,6 @@ Iwacu Pizzeria website is a web where you can order among different types of piz
 * Add a comment
 * submit
 ## Contact Information
-For any query or support, please contact me via my email:iIrafidela@gmail.com.
+For any query or support, please contact me via my email:irafidela@gmail.com.
 ### License
 * MIT license,Copyright (c)2021 Fidela-Keziah
