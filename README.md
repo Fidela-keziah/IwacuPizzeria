@@ -2,7 +2,7 @@
 #### week 4 Independent Project
 #### Author:Fidela-Keziah
 ## Description
-Iwacu Pizzeria website is web where you can order among different types of pizza and having an option of delivering.
+Iwacu Pizzeria website is a web where you can order among different types of pizza and having an option of delivering.
 ## Setup/Installation Requirements
 * UBUNTU
 * Open Terminal
@@ -26,6 +26,6 @@ Iwacu Pizzeria website is web where you can order among different types of pizza
 * Add a comment
 * submit
 ## Contact Information
-For any query or support please contact me via my email:iIrafidela@gmail.com.
+For any query or support, please contact me via my email:iIrafidela@gmail.com.
 ### License
 * MIT license,Copyright (c)2021 Fidela-Keziah
